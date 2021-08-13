@@ -1,0 +1,36 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+}
+
+.navigation {
+    background-color:thistle;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    background-color: thistle;
+    padding: 10px;
+    flex-shrink:0;
+    text-align:center;
+}
