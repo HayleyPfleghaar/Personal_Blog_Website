@@ -1,36 +1,42 @@
-.jumbotron {
-    text-align: center;
-    background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
-}
+@import "nav.css";
+@import "home.css";
+@import "post.css";
 
-.navigation {
-    background-color:thistle;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-.navigation li {
-    list-style-type: none;
-}
-
-.navigation li a {
-    text-decoration: none;
-}
 html, body {
     height: 100%;
 }
+
+html {
+    color: #4a4948;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Open Sans", sans-serif;
 }
+
 .content {
     flex: 1 0 auto;
 }
+
 .footer {
-    background-color: thistle;
+    background-color: #D8C2CA;
     padding: 10px;
-    flex-shrink:0;
-    text-align:center;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.headerimage {
+    max-width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+h5 {
+    color:#618B80;
+    font-style:italic;
+}
+.continue {
+    color:#618B80;
+    font-style:italic;
 }

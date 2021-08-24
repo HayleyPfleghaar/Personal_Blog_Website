@@ -1,0 +1,29 @@
+.navigation {
+    background-color: #D8C2CA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: "OpenSans", sans-serif;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #4a4948;
+}
+
+@media only screen and (max-device-width: 576px) {
+    .navigation {
+        background-color: thistle;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        font-family: "OpenSans", sans-serif;
+        font-size: 2em;
+    }
+}
